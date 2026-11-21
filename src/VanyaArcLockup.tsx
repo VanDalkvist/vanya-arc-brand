@@ -1,4 +1,6 @@
-/* SPDX-FileCopyrightText: 2026 Vanya Afanasov; SPDX-License-Identifier: MIT */
+/* SPDX-FileCopyrightText: 2026 Vanya Afanasov
+ * SPDX-License-Identifier: MIT
+ */
 import React from "react";
 import { VanyaArcMark } from "./VanyaArcMark";
 export interface VanyaArcLockupProps extends React.HTMLAttributes<HTMLSpanElement> { product?: string; size?: "sm"|"md"|"lg"; showMark?: boolean; monochrome?: boolean; }

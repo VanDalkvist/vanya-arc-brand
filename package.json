@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": false,
   "type": "module",
-  "description": "Canonical Vanya Arc identity: approved V→A symbol, product lockups, visual tokens and documentation",
+  "description": "Vanya Arc SVG logos, React lockups and brand colors",
   "license": "SEE LICENSE IN LICENSING.md",
   "author": {
     "name": "Vanya Afanasov",
@@ -19,7 +19,8 @@
     "README.md",
     "THIRD_PARTY_NOTICES.md",
     "docs/source-citation-policy.md",
-    "docs/brand-guidelines.md"
+    "docs/brand-guidelines.md",
+    "REUSE.toml"
   ],
   "exports": {
     ".": {
@@ -35,5 +36,10 @@
   },
   "scripts": {
     "test": "node --test tests/*.test.mjs"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VanDalkvist/vanya-arc-brand.git"
+  },
+  "homepage": "https://github.com/VanDalkvist/vanya-arc-brand#readme"
 }

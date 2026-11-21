@@ -27,3 +27,15 @@ test("mixed license terms and original-source policy ship with public package",(
  assert.match(read("LICENSING.md"),/source-citation-policy/);
  assert.match(read("docs/research/provenance-and-license-review-2026-11.md"),/provenance/i);
 });
+
+test("SPDX headers, full license texts and packlist are consistent",()=>{
+ const fsNames=["favicon.svg","mark-light.svg","mark-dark.svg","mark-mono.svg","lockup-ui-light.svg","lockup-ui-dark.svg","lockup-parent-light.svg","lockup-parent-dark.svg"];
+ for(const name of fsNames){const text=read("assets/"+name);assert.match(text,/SPDX-FileCopyrightText: 2026 Vanya Afanasov\n/);assert.match(text,/SPDX-License-Identifier: LicenseRef-VanyaArc-Brand/);}
+ for(const name of ["src/VanyaArcMark.tsx","src/VanyaArcLockup.tsx","src/tokens.css"]){const text=read(name);assert.match(text,/SPDX-FileCopyrightText: 2026 Vanya Afanasov\n/);assert.match(text,/SPDX-License-Identifier: MIT/);}
+ const p=JSON.parse(read("package.json"));
+ assert.equal(p.license,"SEE LICENSE IN LICENSING.md");
+ for(const name of ["REUSE.toml","LICENSE","LICENSES","LICENSING.md","BRAND.md","THIRD_PARTY_NOTICES.md"])assert.ok(p.files.includes(name),name);
+ assert.match(read("REUSE.toml"),/LicenseRef-VanyaArc-Brand/);
+ assert.match(read("LICENSES/MIT.txt"),/MIT License/);
+ assert.match(read("LICENSES/LicenseRef-VanyaArc-Brand.txt"),/Reserved Rights/);
+});

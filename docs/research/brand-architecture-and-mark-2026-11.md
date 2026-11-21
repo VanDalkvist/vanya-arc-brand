@@ -9,15 +9,15 @@
 - Геометрия и градиент — из уже принятого фирменного компонента; перенос без редизайна.
 - Manrope остаётся интерфейсной гарнитурой; сильно оптический трекинг применяется только к вордмарку.
 
-## Практики индустрии
+## Что смотрели
 
-- [Apple Human Interface Guidelines — typography](https://developer.apple.com/design/human-interface-guidelines/typography/): функциональная типографическая иерархия важнее декоративной смешанной системы; этот принцип применён к отделению вордмарка от UI.
-- [Material Design — branding](https://m3.material.io/foundations/designing/overview): идентичность не должна заслонять назначение продукта; продуктовые компоненты следуют общим принципам дизайна.
-- [Atlassian Design — Foundations](https://atlassian.design/foundations/): единый набор токенов и паттернов помогает нескольким продуктам оставаться узнаваемыми.
+- [Apple Human Interface Guidelines — typography](https://developer.apple.com/design/human-interface-guidelines/typography/): правила набора текста в интерфейсе; отсюда не взяты ни форма знака, ни готовый логотип.
+- [Material Design — branding](https://m3.material.io/foundations/designing/overview): материалы о системах интерфейсов; к Vanya Arc относится структура руководства, не фирменная графика.
+- [Atlassian Design — Foundations](https://atlassian.design/foundations/): пример организации разделов с токенами и визуальными основами.
 
-## Решение
+## Что сделали
 
-Один технический источник геометрии в `src/mark.ts`, один CSS-пакет для знака и палитры и продуктовый суффикс без самостоятельного редизайна. Анимацию самого логотипа пока не включаем: она не обязана сопровождать каждый контрол, бренд связан со свободой, а не обязательным движением.
+Контур хранится в `src/mark.ts`; цвета — в `src/tokens.css`. Компонент `VanyaArcLockup` добавляет суффикс продукта. Анимации логотипа пока нет: её задача не определена.
 
 ## Непроверенное
 

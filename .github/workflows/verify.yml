@@ -14,3 +14,7 @@ jobs:
         with:
           node-version: '22'
       - run: node --test tests/*.test.mjs
+      - name: Check REUSE license map
+        run: |
+          python3 -m pip install --quiet reuse
+          reuse lint

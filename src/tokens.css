@@ -1,4 +1,6 @@
-/* SPDX-FileCopyrightText: 2026 Vanya Afanasov; SPDX-License-Identifier: MIT */
+/* SPDX-FileCopyrightText: 2026 Vanya Afanasov
+ * SPDX-License-Identifier: MIT
+ */
 /* Vanya Arc brand primitives. In an application import once, before local layout CSS. */
 :root {
   --vanya-brand-font-sans: "Manrope", ui-sans-serif, system-ui, sans-serif;

@@ -1,4 +1,6 @@
-/* SPDX-FileCopyrightText: 2026 Vanya Afanasov; SPDX-License-Identifier: MIT */
+/* SPDX-FileCopyrightText: 2026 Vanya Afanasov
+ * SPDX-License-Identifier: MIT
+ */
 import React, { useId } from "react";
 import { VANYA_ARC_MARK_PATH, VANYA_ARC_MARK_VIEWBOX } from "./mark";
 export { VANYA_ARC_MARK_PATH, VANYA_ARC_MARK_VIEWBOX } from "./mark";

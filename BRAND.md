@@ -1,19 +1,26 @@
-# Vanya Arc — rules for the official identity
+# Правила использования бренда Vanya Arc
 
-**Vanya Arc** is the parent brand. **Vanya Arc / UI** is the design-system product. The asymmetric two-crest continuous V→A gesture is the approved source artwork; the short dark movement leads into a taller warm movement. Never substitute a generic symmetric wave, or recolour the V/A initial letters of the wordmark. The product suffix (`/ UI`) is accented.
+**Vanya Arc** — родительский бренд. **Vanya Arc / UI** — дизайн-система. Официальный знак — непрерывная линия с коротким тёмным и высоким тёплым гребнем: [контур](src/mark.ts), [SVG](assets/).
 
-## Permitted without request
+## Без отдельного разрешения
 
-- Truthful nominative references and unmodified official logo images for links, news, reviews, documentation and comparisons, without implying affiliation.
-- Unmodified logo retained in an otherwise authorized copy of an unmodified official app or documentation.
-- Use expressly permitted by applicable law.
+- Упоминай Vanya Arc в обзорах, документации, статьях и ссылках.
+- Показывай неизменённый знак, если он обозначает сам Vanya Arc и не подразумевает партнёрство или одобрение.
+- Сохраняй знак при правомерном распространении неизменённой официальной версии.
+- Используй обозначение в случаях, разрешённых законом.
 
-## Not licensed as third-party branding
+## Для чего нужно разрешение
 
-Do not adopt the sign/wordmark as an unrelated product, fork, business, service, merchandise or certification logo. Do not imply sponsorship or affiliation. For additional permissions contact the rightsholder via https://vanya-arc.dev or https://github.com/VanDalkvist/vanya-arc-brand.
+- Сделать этот знак логотипом другого приложения, форка, компании или сервиса.
+- Выпускать с ним мерч.
+- Представлять независимый продукт как официальный или одобренный Vanya Arc.
 
-## Rights and limitations
+Для запроса разрешения используй [репозиторий](https://github.com/VanDalkvist/vanya-arc-brand) или [сайт](https://vanya-arc.dev).
 
-Reusable React renderers and CSS code are MIT. The original artwork geometry and exported official SVGs are `LicenseRef-VanyaArc-Brand` and carry limited permission terms in LICENSES/. **Prior MIT-distributed copies retain their earlier copyright permissions.** An icon and the word Vanya Arc may also serve as source identifiers under applicable trademark law, independently from copyright. No trademark registration or legal clearance is claimed. AI-assisted geometric artwork may not be copyrightable in all jurisdictions; a published notice cannot establish rights not actually held. No use of the ® symbol without a registered mark.
+## Права
 
-Full scopes: [LICENSING.md](LICENSING.md). Research: [docs/research/brand-rights-and-trademark-2026-11.md](docs/research/brand-rights-and-trademark-2026-11.md).
+Код рендереров React и CSS — MIT. Фирменный контур и SVG распространяются по [отдельным условиям](LICENSING.md), действующим в пределах прав правообладателя. Ранее опубликованные под MIT копии контура из `vanya-ui` сохраняют полученные разрешения.
+
+**Регистрация товарного знака пока не подтверждена.** Происхождение исходного рисунка и сходные обозначения ещё нужно проверить. Простая геометрия, включая AI-assisted рисунки, не во всех юрисдикциях охраняется авторским правом. Символ `®` не используем.
+
+[Графические правила](docs/brand-guidelines.md) · [Лицензии по файлам](LICENSING.md) · [Проверка прав](docs/research/brand-rights-and-trademark-2026-11.md).

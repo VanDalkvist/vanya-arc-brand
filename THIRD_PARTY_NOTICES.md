@@ -1,14 +1,14 @@
 # Third-party credits — Vanya Arc Brand
 
-The repository does not embed or redistribute third-party font binaries or UI icon sets.
+В репозитории нет файлов сторонних шрифтов и библиотек иконок.
 
-- **React** is a peer dependency, not vendored code; MIT license: https://github.com/facebook/react/blob/main/LICENSE
-- **Manrope** is named in CSS/wordmark and is available under SIL OFL 1.1: https://github.com/google/fonts/tree/main/ofl/manrope
-- **Fraunces** is an editorial font referenced by CSS only; SIL OFL 1.1: https://github.com/google/fonts/tree/main/ofl/fraunces
-- **JetBrains Mono** is named for code labels, not redistributed; SIL OFL 1.1: https://github.com/JetBrains/JetBrainsMono/blob/master/OFL.txt
+- **React** — peer dependency, исходники не включены; MIT: https://github.com/facebook/react/blob/main/LICENSE
+- **Manrope** — указан в CSS и SVG; SIL OFL 1.1: https://github.com/google/fonts/tree/main/ofl/manrope
+- **Fraunces** — указан в CSS; SIL OFL 1.1: https://github.com/google/fonts/tree/main/ofl/fraunces
+- **JetBrains Mono** — указан в CSS; SIL OFL 1.1: https://github.com/JetBrains/JetBrainsMono/blob/master/OFL.txt
 
-Do not treat the proprietary system fonts Apple SF Pro as redistributable. SVG text uses the font-family name `Manrope`, so its appearance depends on installed/viewer fonts; code does not include the font outline files.
+SVG с надписью использует Manrope, но не содержит сам шрифт: без него просмотрщик подставит другой. Apple SF Pro не входит в пакет.
 
 ## Source citation vs licensing
 
-External specifications (Apple HIG, Material Design, WIPO, npm documentation, etc.) are cited for analysis only. They are **not** dependencies, licensed assets or source files copied into this repository. Their websites and trademarks are not relicensed under MIT. The requirements for quote/attribution and source provenance are in [docs/source-citation-policy.md](docs/source-citation-policy.md).
+Apple HIG, Material Design, WIPO, npm и другие внешние сайты указаны как источники исследований. Их тексты, иллюстрации и логотипы не входят в MIT-лицензию этого репозитория. Правила атрибуции — в [docs/source-citation-policy.md](docs/source-citation-policy.md).
