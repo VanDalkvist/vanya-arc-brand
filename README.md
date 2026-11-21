@@ -4,7 +4,7 @@
 
 - **Vanya Arc** — родительский бренд; **Vanya Arc / UI** — продукт дизайн-системы.
 - Утверждённый знак: малая тёмная волна плавно переходит в высокую тёплую. Это не симметричная синусоида; геометрия одна на все носители.
-- Код React и CSS — MIT. Оригинальный рисунок и SVG — отдельные условия `LicenseRef-VanyaArc-Brand`. См. [LICENSING.md](LICENSING.md) и [BRAND.md](BRAND.md).
+- Код React и CSS — MIT. В метаданных пакета указано `SEE LICENSE IN LICENSING.md`, поскольку он содержит разные типы материалов. Оригинальный рисунок и SVG — отдельные условия `LicenseRef-VanyaArc-Brand`. См. [LICENSING.md](LICENSING.md) и [BRAND.md](BRAND.md).
 
 ## Пакет
 

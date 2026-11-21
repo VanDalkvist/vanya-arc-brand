@@ -12,7 +12,7 @@ test("CSS holds both palette modes and lockup rules",()=>{
  const s=read("src/tokens.css");assert.match(s,/--ground:/);assert.match(s,/--accent:/);assert.match(s,/\.dark/);assert.match(s,/\.vanya-arc-lockup/);
 });
 test("code and protected art are separated",()=>{
- const pkg=JSON.parse(read("package.json"));assert.equal(pkg.license,"MIT");assert.equal(pkg.name,"@vanya/brand");
+ const pkg=JSON.parse(read("package.json"));assert.equal(pkg.license,"SEE LICENSE IN LICENSING.md");assert.equal(pkg.name,"@vanya/brand");
  assert.match(read("src/mark.ts"),/LicenseRef-VanyaArc-Brand/);assert.match(read("LICENSES/LicenseRef-VanyaArc-Brand.txt"),/Historical|historical|prior/i);
  assert.match(read("BRAND.md"),/MIT/);assert.match(read("README.md"),/brand/);
 });
