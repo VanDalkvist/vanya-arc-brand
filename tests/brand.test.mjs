@@ -16,3 +16,14 @@ test("code and protected art are separated",()=>{
  assert.match(read("src/mark.ts"),/LicenseRef-VanyaArc-Brand/);assert.match(read("LICENSES/LicenseRef-VanyaArc-Brand.txt"),/Historical|historical|prior/i);
  assert.match(read("BRAND.md"),/MIT/);assert.match(read("README.md"),/brand/);
 });
+
+test("mixed license terms and original-source policy ship with public package",()=>{
+ const pkg=JSON.parse(read("package.json"));
+ assert.equal(pkg.license,"SEE LICENSE IN LICENSING.md");
+ for(const p of ["THIRD_PARTY_NOTICES.md","docs/source-citation-policy.md","docs/brand-guidelines.md"])assert.ok(pkg.files.includes(p),p);
+ assert.match(read("docs/source-citation-policy.md"),/2001\/29/);
+ assert.match(read("docs/source-citation-policy.md"),/CC BY 4\.0/);
+ assert.match(read("docs/source-citation-policy.md"),/reference-only/);
+ assert.match(read("LICENSING.md"),/source-citation-policy/);
+ assert.match(read("docs/research/provenance-and-license-review-2026-11.md"),/provenance/i);
+});

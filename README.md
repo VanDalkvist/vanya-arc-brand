@@ -41,6 +41,8 @@ import "@vanya/brand/tokens.css";
 - [Иерархия бренда и логотип](docs/research/brand-architecture-and-mark-2026-11.md)
 - [Носители, читаемость и схема использования](docs/research/brand-assets-and-usage-2026-11.md)
 - [Защита знака и границы лицензий](docs/research/brand-rights-and-trademark-2026-11.md)
+- [Правила источников, цитирования и разрешений](docs/source-citation-policy.md)
+- [Аудит источников и лицензий](docs/research/provenance-and-license-review-2026-11.md)
 - [Список задач для финальной визуальной приёмки](docs/acceptance.md)
 
 Основной сайт: https://vanya-arc.dev · Дизайн-система: https://ui.vanya-arc.dev.

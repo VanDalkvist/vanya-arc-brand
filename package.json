@@ -16,7 +16,10 @@
     "LICENSES",
     "BRAND.md",
     "LICENSING.md",
-    "README.md"
+    "README.md",
+    "THIRD_PARTY_NOTICES.md",
+    "docs/source-citation-policy.md",
+    "docs/brand-guidelines.md"
   ],
   "exports": {
     ".": {
