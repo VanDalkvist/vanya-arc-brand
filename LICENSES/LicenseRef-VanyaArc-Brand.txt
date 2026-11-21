@@ -1,0 +1,18 @@
+Vanya Arc Brand Artwork — Reserved Rights and Limited Permitted Uses
+Copyright © 2026 Vanya Afanasov, to the extent the rights are held by that person.
+
+The official artwork in src/mark.ts and assets/*.svg is not granted under MIT.
+You may reproduce the unmodified mark for truthful reference to, linking to,
+reviewing, documenting or identifying official Vanya Arc products, without
+implying affiliation, approval or sponsorship. You may retain official
+attribution when redistributing unmodified official materials under otherwise
+applicable legal permissions. Other uses require separate permission.
+
+Not authorized: adopting the artwork as the branding of a different product,
+merchandising the mark, or using a confusingly similar identifier to
+misrepresent origin or affiliation. Applicable law and legally permitted
+references are not overridden.
+
+This notice is prospective, does not revoke pre-existing MIT grants to
+historically distributed copies, and does not create trademark registration.
+Copyright protection depends on actual originality and ownership. See BRAND.md.

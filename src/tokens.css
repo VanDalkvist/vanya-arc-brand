@@ -1,0 +1,34 @@
+/* SPDX-FileCopyrightText: 2026 Vanya Afanasov; SPDX-License-Identifier: MIT */
+/* Vanya Arc brand primitives. In an application import once, before local layout CSS. */
+:root {
+  --vanya-brand-font-sans: "Manrope", ui-sans-serif, system-ui, sans-serif;
+  --vanya-brand-font-serif: "Fraunces", ui-serif, Georgia, serif;
+  --vanya-brand-font-mono: "JetBrains Mono", ui-monospace, monospace;
+  --ground: oklch(0.964 0.008 85);
+  --ink: oklch(0.265 0.012 60);
+  --ink-soft: oklch(0.420 0.014 65);
+  --ink-faint: oklch(0.480 0.012 65);
+  --accent: oklch(0.530 0.135 42);
+  --accent-soft: rgba(186, 92, 32, 0.12);
+}
+.dark {
+  --ground: oklch(0.185 0.008 65);
+  --ink: oklch(0.930 0.008 75);
+  --ink-soft: oklch(0.780 0.012 75);
+  --ink-faint: oklch(0.660 0.012 75);
+  --accent: oklch(0.720 0.155 45);
+  --accent-soft: rgba(255, 178, 102, 0.15);
+}
+@layer components {
+  .vanya-arc-lockup { display:inline-flex; align-items:center; gap:.57em; max-width:100%; width:max-content; color:var(--ink); font-family:var(--vanya-brand-font-sans); font-weight:600; line-height:1.15; letter-spacing:-.047em; white-space:nowrap; }
+  .vanya-arc-lockup[data-size="sm"] { font-size:14px; }
+  .vanya-arc-lockup[data-size="md"] { font-size:20px; }
+  .vanya-arc-lockup[data-size="lg"] { font-size:clamp(25px,3.4vw,43px); }
+  .vanya-arc-mark { display:block; width:2.3em; height:1em; flex:none; overflow:visible; color:var(--ink); }
+  .vanya-arc-wordmark { letter-spacing:-.048em; }
+  .vanya-arc-suffix { display:inline-flex; align-items:baseline; gap:.20em; margin-left:-.28em; }
+  .vanya-arc-separator { color:var(--ink-soft); font-weight:450; }
+  .vanya-arc-product { color:var(--accent); font-weight:700; letter-spacing:-.035em; }
+  .vanya-arc-lockup[data-monochrome="true"] { color:var(--ink); }
+  .vanya-arc-lockup[data-monochrome="true"] :is(.vanya-arc-product,.vanya-arc-separator) { color:currentColor; }
+}
