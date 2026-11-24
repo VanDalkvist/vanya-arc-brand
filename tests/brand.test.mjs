@@ -39,3 +39,12 @@ test("SPDX headers, full license texts and packlist are consistent",()=>{
  assert.match(read("LICENSES/MIT.txt"),/MIT License/);
  assert.match(read("LICENSES/LicenseRef-VanyaArc-Brand.txt"),/Reserved Rights/);
 });
+
+
+test("brand typography preserves UI and mono families and selects Spectral editorial",()=>{
+ const css=read("src/tokens.css");
+ assert.match(css,/--vanya-brand-font-sans:\s*"Manrope"/);
+ assert.match(css,/--vanya-brand-font-mono:\s*"JetBrains Mono"/);
+ assert.match(css,/--vanya-brand-font-serif:\s*"Spectral"/);
+ assert.match(read("THIRD_PARTY_NOTICES.md"),/Spectral.*ofl\/spectral/);
+});

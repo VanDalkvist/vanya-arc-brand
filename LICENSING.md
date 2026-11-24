@@ -15,7 +15,7 @@
 
 ## Сторонние материалы
 
-React — peer dependency под MIT, его исходников здесь нет. Manrope, Fraunces и JetBrains Mono названы в CSS/SVG, но файлы шрифтов не включены; исходные лицензии — SIL OFL 1.1. Ссылки на Apple, WIPO и другие сайты в исследованиях не дают разрешения перепечатывать их текст или графику.
+React — peer dependency под MIT, его исходников здесь нет. Manrope, Spectral и JetBrains Mono названы в CSS/SVG, но файлы шрифтов не включены; исходные лицензии — SIL OFL 1.1. Ссылки на Apple, WIPO и другие сайты в исследованиях не дают разрешения перепечатывать их текст или графику.
 
 [Сторонние материалы](THIRD_PARTY_NOTICES.md) · [Цитирование](docs/source-citation-policy.md) · [Аудит](docs/research/provenance-and-license-review-2026-11.md).
 

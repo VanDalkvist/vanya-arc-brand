@@ -4,7 +4,7 @@
 /* Vanya Arc brand primitives. In an application import once, before local layout CSS. */
 :root {
   --vanya-brand-font-sans: "Manrope", ui-sans-serif, system-ui, sans-serif;
-  --vanya-brand-font-serif: "Fraunces", ui-serif, Georgia, serif;
+  --vanya-brand-font-serif: "Spectral", ui-serif, Georgia, serif;
   --vanya-brand-font-mono: "JetBrains Mono", ui-monospace, monospace;
   --ground: oklch(0.964 0.008 85);
   --ink: oklch(0.265 0.012 60);

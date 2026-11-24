@@ -4,7 +4,7 @@
 
 - **React** — peer dependency, исходники не включены; MIT: https://github.com/facebook/react/blob/main/LICENSE
 - **Manrope** — указан в CSS и SVG; SIL OFL 1.1: https://github.com/google/fonts/tree/main/ofl/manrope
-- **Fraunces** — указан в CSS; SIL OFL 1.1: https://github.com/google/fonts/tree/main/ofl/fraunces
+- **Spectral** — указан в CSS; SIL OFL 1.1: https://github.com/google/fonts/tree/main/ofl/spectral
 - **JetBrains Mono** — указан в CSS; SIL OFL 1.1: https://github.com/JetBrains/JetBrainsMono/blob/master/OFL.txt
 
 SVG с надписью использует Manrope, но не содержит сам шрифт: без него просмотрщик подставит другой. Apple SF Pro не входит в пакет.
