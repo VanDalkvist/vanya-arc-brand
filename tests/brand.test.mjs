@@ -57,5 +57,6 @@ test("product family policy ships and generic services require a supplied mark",
  assert.match(read("docs/brand-guidelines.md"),/Синусоида — генеративный принцип айдентики/);
  assert.match(read("src/VanyaArcLockup.tsx"),/!product \|\| product === "UI"/);
  assert.match(read("src/VanyaArcLockup.tsx"),/ProductMark monochrome=\{monochrome\}/);
+ assert.match(read("src/VanyaArcLockup.tsx"),/: <VanyaArcMark monochrome=\{monochrome\}>|: <VanyaArcMark monochrome=\{monochrome\}\/>/);
  assert.match(read("src/index.ts"),/VanyaArcProductMarkProps/);
 });
