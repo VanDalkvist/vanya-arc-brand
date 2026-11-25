@@ -1,0 +1,3 @@
+# Agent entrypoint — Vanya Arc brand
+
+Read [the brand architecture](docs/brand-guidelines.md) and [product identity procedure](docs/product-identity.md) before creating or changing product branding. Keep the original V→A geometry and assets for Vanya Arc and UI unchanged. Every other official product requires a distinct approved wave interpretation, matching favicon and semantic rationale. Preserve published assets until an explicit migration. Shared palette, typography and lockup API belong here; product-specific approved marks belong with their product. Do not publish unapproved concepts or private material as real product assets. Run `npm test` and review the rendered lockup and favicon in both themes and monochrome; report unverified checks.

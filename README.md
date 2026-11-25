@@ -3,7 +3,7 @@
 Здесь хранятся SVG, контур логотипа, React-компоненты и цвета Vanya Arc. `@vanya/ui` подключает этот пакет с закреплённого GitHub-коммита.
 
 - **Vanya Arc** — родительский бренд; **Vanya Arc / UI** — продукт дизайн-системы.
-- Знак — одна линия с двумя гребнями: коротким тёмным и высоким терракотовым. Контур одинаковый во всех вариантах.
+- Знак — одна линия с двумя гребнями: коротким тёмным и высоким терракотовым. Контур родителя и UI одинаковый во всех темах. Остальные официальные продукты используют свои согласованные волновые знаки; см. [архитектуру](docs/brand-guidelines.md) и [процедуру](docs/product-identity.md).
 - Код React и CSS — MIT. В метаданных пакета указано `SEE LICENSE IN LICENSING.md`, поскольку он содержит разные типы материалов. Оригинальный рисунок и SVG — отдельные условия `LicenseRef-VanyaArc-Brand`. См. [LICENSING.md](LICENSING.md) и [BRAND.md](BRAND.md).
 
 ## Пакет
@@ -19,6 +19,7 @@ import "@vanya/brand/tokens.css";
 <VanyaArcLockup />
 <VanyaArcLockup product="UI" />
 <VanyaArcLockup product="UI" monochrome />
+// <VanyaArcLockup product="Product" productMark={ProductMark} />
 <VanyaArcMark label="Vanya Arc" />
 ```
 

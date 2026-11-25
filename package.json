@@ -1,6 +1,6 @@
 {
   "name": "@vanya/brand",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "private": false,
   "type": "module",
   "description": "Vanya Arc SVG logos, React lockups and brand colors",
@@ -20,7 +20,9 @@
     "THIRD_PARTY_NOTICES.md",
     "docs/source-citation-policy.md",
     "docs/brand-guidelines.md",
-    "REUSE.toml"
+    "REUSE.toml",
+    "docs/product-identity.md",
+    "AGENTS.md"
   ],
   "exports": {
     ".": {

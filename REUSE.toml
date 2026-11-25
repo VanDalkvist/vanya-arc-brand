@@ -3,7 +3,7 @@ version = 1
 [[annotations]]
 path = [
   ".github/workflows/*.yml",
-  "BRAND.md", "LICENSING.md", "README.md", "THIRD_PARTY_NOTICES.md",
+  "AGENTS.md", "BRAND.md", "LICENSING.md", "README.md", "THIRD_PARTY_NOTICES.md",
   "docs/**/*.md", "package.json",
   "src/VanyaArcLockup.tsx", "src/VanyaArcMark.tsx", "src/index.ts", "src/tokens.css",
   "tests/*.test.mjs"
