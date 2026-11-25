@@ -48,3 +48,15 @@ test("brand typography preserves UI and mono families and selects Spectral edito
  assert.match(css,/--vanya-brand-font-serif:\s*"Spectral"/);
  assert.match(read("THIRD_PARTY_NOTICES.md"),/Spectral.*ofl\/spectral/);
 });
+
+
+test("product family policy ships and generic services require a supplied mark",()=>{
+ const pkg=JSON.parse(read("package.json"));
+ assert.ok(pkg.files.includes("docs/product-identity.md"));
+ assert.ok(pkg.files.includes("AGENTS.md"));
+ assert.match(read("docs/brand-guidelines.md"),/Синусоида — генеративный принцип айдентики/);
+ assert.match(read("src/VanyaArcLockup.tsx"),/!product \|\| product === "UI"/);
+ assert.match(read("src/VanyaArcLockup.tsx"),/ProductMark monochrome=\{monochrome\}/);
+ assert.match(read("src/VanyaArcLockup.tsx"),/: <VanyaArcMark monochrome=\{monochrome\}>|: <VanyaArcMark monochrome=\{monochrome\}\/>/);
+ assert.match(read("src/index.ts"),/VanyaArcProductMarkProps/);
+});
